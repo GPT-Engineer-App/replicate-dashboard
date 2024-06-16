@@ -12,14 +12,14 @@ function App() {
     <Router>
       <Flex>
         <Sidebar />
-        <Box flex="1">
+        <Box flex="1" bg="gray.50">
           <Header />
           <Tabs />
           <Flex>
-            <Box flex="2">
+            <Box flex="2" p={4}>
               <PostList />
             </Box>
-            <Box flex="1">
+            <Box flex="1" p={4} bg="white" boxShadow="md">
               <PostDetails />
             </Box>
           </Flex>
