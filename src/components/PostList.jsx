@@ -1,4 +1,4 @@
-import { Box, Table, Thead, Tbody, Tr, Th, Td, Icon } from "@chakra-ui/react";
+import { Box, Table, Thead, Tbody, Tr, Th, Td, Icon, Flex } from "@chakra-ui/react";
 import { FaReddit, FaTwitter } from "react-icons/fa";
 
 const posts = [
