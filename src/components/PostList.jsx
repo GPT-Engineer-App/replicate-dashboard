@@ -14,9 +14,9 @@ const posts = [
 
 const PostList = () => {
   return (
-    <Box overflowX="auto">
+    <Box overflowX="auto" bg="white" boxShadow="md" borderRadius="md">
       <Table variant="simple">
-        <Thead>
+        <Thead bg="gray.100">
           <Tr>
             <Th>Post</Th>
             <Th>Related</Th>

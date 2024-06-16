@@ -3,7 +3,7 @@ import { FaCog, FaEnvelopeOpenText, FaEnvelope, FaCheckCircle, FaReply } from "r
 
 const Sidebar = () => {
   return (
-    <Box bg="gray.100" w="250px" p={4} h="100vh" display="flex" flexDirection="column" justifyContent="space-between">
+    <Box bg="gray.800" color="white" w="250px" p={4} h="100vh" display="flex" flexDirection="column" justifyContent="space-between">
       <VStack align="start" spacing={4}>
         <Text fontSize="2xl" fontWeight="bold">Liop</Text>
         <Text fontSize="lg">Posts</Text>
@@ -26,7 +26,7 @@ const Sidebar = () => {
           </Flex>
         </VStack>
       </VStack>
-      <IconButton aria-label="Settings" icon={<FaCog />} size="lg" />
+      <IconButton aria-label="Settings" icon={<FaCog />} size="lg" variant="outline" colorScheme="teal" />
     </Box>
   );
 };
